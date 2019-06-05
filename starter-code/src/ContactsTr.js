@@ -11,7 +11,7 @@ class ContactsTr extends Component {
             <td><img src={this.props.contact.pictureUrl} /></td>
             <td>{this.props.contact.name}</td>
             <td>{this.props.contact.popularity.toFixed(2)}</td>
-            <td><MyButton idx={this.props.idx} onClick={this.props.delete}>Delete</MyButton></td>
+            <td><MyButton isDanger isOutlined idx={this.props.idx} onClick={this.props.delete}>Delete</MyButton></td>
           </tr>
         )
   }

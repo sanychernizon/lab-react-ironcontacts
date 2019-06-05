@@ -35,6 +35,10 @@ table tr td img {
   width: 20%;
 }
 
+.button-group {
+  display: flex;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
